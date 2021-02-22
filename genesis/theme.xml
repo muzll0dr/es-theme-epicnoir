@@ -1,27 +1,23 @@
 <theme>
-<formatVersion>7</formatVersion>
-<include>./../theme.xml</include>
-
-<view name="basic, detailed, video, grid">
-  <text name="nameLabel" extra="true">
-    <text>Sega Genesis</text>
-  </text>
-</view>    
-
-<view name="system">
-  <text name="sys_line1" extra="true">
-    <text>Sega</text>
-
-  </text>
-  <text name="sys_line2" extra="true">
-    <text>Genesis</text>
-
-</text>
-  <text name="shortdescription" extra="true">
-   <text>1989  ·  16-bit Console</text>
-  </text>
-  <text name="longdescription" extra="true">
-   <text>Sega's third console and the successor to the Master System. Released in North America as the Genesis</text>
-  </text>
- </view>
+  <formatVersion>7</formatVersion>
+  <include>./../theme.xml</include>
+  <view name="basic, detailed, video, grid">
+    <text extra="true" name="nameLabel">
+      <text>Sega Genesis</text>
+    </text>
+  </view>
+  <view name="system">
+    <text extra="true" name="sys_line1">
+      <text>Sega</text>
+    </text>
+    <text extra="true" name="sys_line2">
+      <text>Genesis</text>
+    </text>
+    <text extra="true" name="shortdescription">
+      <text>1989  ·  16-bit Console</text>
+    </text>
+    <text extra="true" name="longdescription">
+      <text>Sega's third console and the successor to the Master System. Released in North America as the Genesis</text>
+    </text>
+  </view>
 </theme>
